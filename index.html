@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="utf-8"> 
+    <meta name="description" content="Tienda sencilla de ropa en línea"> 
+    <meta name="keywords" content="ropa, moda, camisetas, pantalones, tienda"> 
+    <title>Mi Tienda de Ropa</title> 
+    <link rel="stylesheet" href="estilos.css"> 
+</head> 
+<body> 
+    <!-- Cabecera principal --> 
+    <header> 
+        <h1>Moda Urbana</h1> 
+        <p>Tu tienda de ropa online</p> 
+    </header> 
+
+    <!-- Menú de categorías --> 
+    <nav> 
+        <ul> 
+            <li><a href="#camisetas">Camisetas</a></li> 
+            <li><a href="#pantalones">Pantalones</a></li> 
+            <li><a href="#abrigos">Abrigos</a></li> 
+            <li><a href="#contacto">Contacto</a></li> 
+        </ul> 
+    </nav> 
+
+    <!-- Catálogo de productos --> 
+    <section id="catalogo"> 
+        <!-- Prenda 1 --> 
+        <article> 
+            <header> 
+                <h2>Camiseta Básica de Algodón</h2> 
+            </header> 
+            <figure> 
+                <img src="camiseta.jpg" alt="Camiseta blanca de algodón"> 
+                <figcaption>Camiseta unisex de corte recto, 100% algodón.</figcaption> 
+            </figure> 
+            <form action="#" method="post"> 
+                <p><strong>Precio:</strong> 15,00 €</p> 
+                <label for="cant1">Cantidad:</label> 
+                <input type="number" id="cant1" name="cantidad" min="1" max="10" value="1" required> 
+                <input type="submit" value="Comprar"> 
+            </form> 
+            <footer> 
+                <p>Disponibilidad: En stock</p> 
+            </footer> 
+        </article> 
+
+        <!-- Prenda 2 --> 
+        <article> 
+            <header> 
+                <h2>Pantalón Vaquero Clásico</h2> 
+            </header> 
+            <figure> 
+                <img src="pantalon.jpg" alt="Pantalón vaquero azul"> 
+                <figcaption>Vaquero azul con ajuste estándar y cinco bolsillos.</figcaption> 
+            </figure> 
+            <form action="#" method="post"> 
+                <p><strong>Precio:</strong> 39,95 €</p> 
+                <label for="cant2">Cantidad:</label> 
+                <input type="number" id="cant2" name="cantidad" min="1" max="5" value="1" required> 
+                <input type="submit" value="Comprar"> 
+            </form> 
+            <footer> 
+                <p>Disponibilidad: Pocas unidades</p> 
+            </footer> 
+        </article> 
+    </section> 
+
+    <!-- Barra lateral con información secundaria --> 
+    <aside> 
+        <h3>Promoción de temporada</h3> 
+        <blockquote>Envío gratuito en pedidos superiores a 50 €.</blockquote> 
+        <h3>Atención al cliente</h3> 
+        <p>Horario: Lunes a Viernes de 9:00 a 18:00 h.</p> 
+    </aside> 
+
+    <!-- Pie institucional --> 
+    <footer> 
+        <address> 
+            Contacto: <a href="mailto:ventas@modaurbana.com">ventas@modaurbana.com</a> 
+        </address> 
+        <small>Derechos Reservados &copy; 2026 Moda Urbana</small> 
+    </footer> 
+</body> 
+</html>
